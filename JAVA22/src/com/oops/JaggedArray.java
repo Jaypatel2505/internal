@@ -1,7 +1,5 @@
 package com.oops;
-
 import java.util.Scanner;
-
 /*
  * Jagged Array:
  * - Same as 2D array

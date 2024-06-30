@@ -9,7 +9,7 @@ package com.oops;
  * 
  * Polymorphism: One name multiple form
  * 		1. Function overloading : Same Func. name but diff. parameter
- * 		2. Function overriding 
+ * 		2. Function overriding : Same func. name, same parameter, same return type but diff. function body/fun. Defination(Code available in Constructor Chaining file)
  */
 class Calc{
 	int a,b,c;

@@ -1,7 +1,4 @@
 package com.oops;
-
-import com.task.FirstDayOfCurrentYear;
-
 /*
  * Hierarchical Inheritance : Single parent multiple child
  */

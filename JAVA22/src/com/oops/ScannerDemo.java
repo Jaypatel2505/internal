@@ -1,8 +1,5 @@
 package com.oops;
-
 import java.util.Scanner;
-import java.util.jar.Attributes.Name;
-
 /*
  * Scanner
  * - It's Class
