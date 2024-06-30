@@ -58,10 +58,10 @@ public class FunctionDemo {
 		c1.sum();
 		c1.show();
 		
-		c1.sum(101, 201);
+		c1.sum(123, 100);
 		c1.show();
 		
-		c1.sum(123.34f, 199.89f);
+		c1.sum(123.34f, 100.78f);
 		
 		System.out.println("Multiplication is :"+c1.mul());
 		System.out.println("Multiplication is :"+c1.mul(15,2));

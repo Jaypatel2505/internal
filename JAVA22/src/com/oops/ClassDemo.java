@@ -28,10 +28,12 @@ package com.oops;
 class Student{
 	private int roll_no;
 	private String name;
+
 	public void setData() {
 		roll_no = 1;
 		name = "Jay";
 	}
+	
 	public void display() {
 		System.out.println("Roll No is: "+roll_no);
 		System.out.println("Name is: "+name);
