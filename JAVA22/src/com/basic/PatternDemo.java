@@ -13,7 +13,7 @@ package com.basic;
  * for i
  * initilization : First no of pattern
  * Condition : Largest/Smallest no in pattern
- * 			   Smallest to Largest <
+ * 			   Smallest to Largest <=
  *    		   Largest to smallest >=
  * Incree/Decree : <= then ++
  * 				   >= then --
@@ -102,6 +102,20 @@ public static void main(String[] args) {
 	 */
 	for (int i = 1; i <= 5; i++) {
 		for (int j = 1; j <= i; j++) {
+			System.out.print(j%2);
+		}
+		System.out.println();
+	}
+	
+	/*
+	 * 1
+	 * 01
+	 * 101
+	 * 0101
+	 * 10101
+	 */
+	for (int i = 1; i <=5 ; i++) {
+		for (int j = i; j <= 1; j++) {
 			System.out.print(j%2);
 		}
 		System.out.println();
