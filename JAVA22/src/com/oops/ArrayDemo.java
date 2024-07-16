@@ -25,6 +25,7 @@ public class ArrayDemo {
 		
 		for (int i = 0; i <= 4; i++) {
 			a[i] = i+1;
+			System.out.println("the"+a[i]);
 		}
 		
 		for (int j = 0; j < a.length; j++) {
