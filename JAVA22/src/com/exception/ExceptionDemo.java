@@ -1,7 +1,4 @@
 package com.exception;
-
-import java.util.Iterator;
-
 /*
  * Exception : Any Abnormal Condition
  * - Exception class is a root class for all exception
@@ -26,15 +23,16 @@ import java.util.Iterator;
 public class ExceptionDemo {
 	public static void main(String[] args) {
 		int a=10, b=0;
-		int[] num = new int[3];
+//		int[] num = new int[3];
 		
 		try {
 			System.out.println("Division is: "+a/b);
-			for (int i = 0; i < 3; i++) {
-				num[i]=i+1;
-				System.out.println(num[i]);
-			}
-		} catch (Exception e) {
+//			for (int i = 0; i <6; i++) {
+//				num[i]=i+1;
+//				System.out.println(num[i]);
+//			}
+		} 
+		catch (Exception e) {
 			e.printStackTrace();
 		}
 		

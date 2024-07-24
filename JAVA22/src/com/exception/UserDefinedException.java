@@ -28,7 +28,7 @@ class JayException extends Exception{
 class ATM{
 	double ballance;
 	public void deposit(double amount) {
-		ballance+=amount;		//	ballance = ballance + amount;
+		ballance+=amount;		//	Balance = balance + amount;
 		System.out.println("Total ballance is: "+ballance);
 	}
 	public void withdraw(double amount) throws JayException, ArrayIndexOutOfBoundsException{

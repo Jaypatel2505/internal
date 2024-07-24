@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	System.out.println("Float values is: "+f1);
 	System.out.println("Double values is: "+d1);
 	System.out.println("\n");
-	System.out.println("Data type Values");
+	System.out.println("Data type Size");
 	System.out.println("Integer values is: "+Integer.BYTES);
 	System.out.println("Long values is: "+Long.BYTES);
 	System.out.println("Charcter values is: "+Character.BYTES);
