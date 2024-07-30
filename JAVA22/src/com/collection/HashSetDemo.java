@@ -14,7 +14,7 @@ import java.util.Iterator;
  * 	- All hash key are converted into hash code
  * 	- All values are displayed hash code wise
  * 	- Duplicate values are not allowed
- * 	- add() and removed() method
+ * 	- add() and remove() method
  * 	- For remove you have only one option which is value itself.
  */
 public class HashSetDemo {

@@ -61,5 +61,6 @@ public class UserDefinedException {
 			//	e.printStackTrace();
 			System.out.println("If you deposite "+e.amount+"rs more you can withdrawn "+amount+"rs");
 		}
+		//scanner.close(); 			// For handle scanner close warning while definition(Line no : 47)
 	}
 }

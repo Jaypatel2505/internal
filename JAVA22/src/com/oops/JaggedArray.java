@@ -8,6 +8,11 @@ import java.util.Scanner;
  * 1 2 3
  * 1 2 3 4 5
  * 1 2
+ * ------------------------------
+ * 1 2
+ *   1 2 3
+ * 1 2 3 4 5
+ *     2 3 4
  */
 public class JaggedArray {
 	public static void main(String[] args) {
